@@ -4,6 +4,13 @@ This is a crawler designed for personal use to help creators select the crowd fu
 
 I frequently see awesome products being launched on crowd funding platforms that do not fit the user base. The purpose of this project is to encourage creators make products targetting OpenSource hardware enthuasits to consider using CrowdSupply. I hope this project provides the empirical that might convince some to become part of the CrowdSupply community.
 
+### Usage
+
+```
+yarn
+yarn start
+yarn projects-summary > output.csv
+```
 
 ## Data Collection
 
