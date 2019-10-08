@@ -13,7 +13,7 @@ const PROJECT_CRAWL_INTERVAL = 1000*60*60*24
 
 class CrowdSupplyCrawler extends Crawler {
   constructor(config){
-    super({ /*rateLimit: 750,*/ maxConnections: 5 })
+    super({ rateLimit: 750 })
 
     this.db = null
     this.base = 'https://www.crowdsupply.com'
