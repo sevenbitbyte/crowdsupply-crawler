@@ -9,7 +9,7 @@
     "summary": "DEBUG=crawler,crawler.verbose npx nodemon --watch src ./src/summary.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@hapi/wreck": "^15.1.0",
     "cheerio": "^1.0.0-rc.3",
